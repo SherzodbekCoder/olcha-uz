@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1440px;
+    width: 100%;
+    margin: 100px auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    background-color: #da002b;
+    height: 56px;
+}
+
+.nav-button {
+    display: flex;
+    gap: 16px;
+}
+
+.nav-button .btn1 {
+    margin-left: 20px;
+    width: 116px;
+    height: 32px;
+    cursor: pointer;
+    align-items: center;
+    background: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    display: flex;
+    font-size: 11px;
+    color: #da002b;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-top: -0px;
+    height: 32px;
+    justify-content: center;
+    line-height: 24px;
+    padding: 2px 10px;
+}
+
+.nav-button .btn2 {
+    width: 115px;
+    height: 32px;
+    align-items: center;
+    background: #da002b;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    display: flex;
+    font-size: 12.5px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+    height: 32px;
+    justify-content: center;
+    line-height: 24px;
+    padding: 2px 10px;
+}
+
+.nav-button .btn3 {
+    margin-left: 20px;
+    width: 133px;
+    height: 32px;
+    align-items: center;
+    background: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    display: flex;
+    margin-left: -1px;
+    font-size: 11px;
+    color: #da002b;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-top: -0px;
+    height: 32px;
+    cursor: pointer;
+    justify-content: center;
+    line-height: 24px;
+    padding: 2px 10px;
+}
+
+.nav-button span {
+    width: 90px;
+    height: 24px;
+    margin-top: 2px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.nav-info {
+    display: flex;
+}
+
+.nav-info span {
+    width: 184px;
+    height: 23px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    margin-left: -500px;
+}
+
+.nav-info .btn4 {
+    width: 115px;
+    height: 32px;
+    align-items: center;
+    background: #da002b;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    display: flex;
+    font-size: 12.5px;
+    cursor: pointer;
+    margin-left: -10px;
+    font-weight: 500;
+    color: #fff;
+    justify-content: center;
+    line-height: 24px;
+    padding: 2px 10px;
+}
+
+.nav-info h2 {
+    color: #ffffffb3;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.nav-info h3 {
+    color: #FFFFFFB3;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+.nav-info h4 {
+    color: #FFFFFFB3;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.hero__container .navbar{
+    display: flex;
+}
+
+.hero__container img {
+    width: 102px;
+    margin-top: 18px;
+    height: 30px;
+    position: relative;
+}
+
+.navbar .btn5 {
+    align-items: center;
+    border: 2px solid #111;
+    border-radius: 12px;
+    color: #111;
+    margin-top: 10px;
+    cursor: pointer;
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #fff;
+    height: 48px;
+    line-height: 1.33;
+    margin-right: auto;
+    padding: 15px 27px 15px 28px;
+    margin-left: 50px;
+}
+.navbar input{
+    width: 650px;
+    height: 47px;
+    background-color: #F2F2F2;
+    border-radius: 12px;
+    margin-top: 10px;
+    margin-right: 450px;
+}
+.navbar input::placeholder{
+    /* text-align: 30px; */
+    width: 381px;
+    padding: 11px 24px;
+
+
+}
+.navbar .search{
+    position: absolute;
+    margin-top: 20px;
+    width: 25px;
+    height: 25px;
+    left: 990px;
+    cursor: pointer;
+}
+.nav-background {
+    display: flex;
+}
+.nav-background img {
+    width: 999px;
+    height: 452px;
+}
+.card{
+    margin-top: 20px;
+    margin-left: 10px;
+    border: 3px solid #da002b;
+    border-radius: 12px;
+    height: 430px;
+    width: 700px;
+    background-color: #F2F2F2;
+    position: relative;
+}
+.card h2{
+    position: absolute;
+    left: 200px;
+}
+.card img{
+    width: 320px;
+    height: 390px;
+    margin-left: 90px;
+    margin-top: -0px;
+    /* border-radius: 50px; */
+}
+.card span{
+    color: #111;
+    width: 273px;
+    height: 40px;
+}
